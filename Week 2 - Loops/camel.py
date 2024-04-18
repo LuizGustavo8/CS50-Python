@@ -15,11 +15,10 @@ def main():
   snake = "".join(snake)
 
   if counter > 0:
-      # Se houve substituições, remove o primeiro sublinhado
-      snake = snake.lstrip("_")
+
       print("snakeCase: " + snake)
   else:
-      print("snakeCase: " + string)
+      print("snakeCase: " + snake)
 
 if __name__ == "__main__":
   main()
